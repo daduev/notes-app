@@ -3,8 +3,9 @@
  */
 const React = require("react");
 const ReactDOM = require("react-dom");
+const App = require("./components/App.jsx");
 
 ReactDOM.render(
-    <h1>Notes</h1>,
+    <App />,
     document.getElementById("mount-point")
 );
